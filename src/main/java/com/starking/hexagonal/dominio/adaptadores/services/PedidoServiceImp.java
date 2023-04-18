@@ -4,8 +4,11 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
+import com.starking.hexagonal.dominio.Produto;
 import com.starking.hexagonal.dominio.dtos.EstoqueDTO;
 import com.starking.hexagonal.dominio.dtos.ProdutoDTO;
+import com.starking.hexagonal.dominio.portas.interfaces.ProdutoServicePort;
+import com.starking.hexagonal.dominio.portas.repositories.ProdutoRepositoryPort;
 
 import javassist.NotFoundException;
 

@@ -2,14 +2,16 @@ package com.starking.hexagonal.dominio.portas.repositories;
 
 import java.util.List;
 
+import com.starking.hexagonal.dominio.Produto;
+
 /**
  * @author pedroRhamon
  *
  */
 public interface ProdutoRepositoryPort {
-    List<Produto> buscarTodos();
+	List<Produto> buscarTodos();
 
-    Produto buscarPeloSku(String sku);
+	Produto buscarPeloSku(String sku);
 
-    void salvar(Produto produto);
+	void salvar(Produto produto);
 }

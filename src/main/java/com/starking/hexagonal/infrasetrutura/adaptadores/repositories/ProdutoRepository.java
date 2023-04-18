@@ -7,6 +7,8 @@ import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Component;
 
+import com.starking.hexagonal.dominio.Produto;
+import com.starking.hexagonal.dominio.portas.repositories.ProdutoRepositoryPort;
 import com.starking.hexagonal.infrasetrutura.adaptadores.entidades.ProdutoEntity;
 
 /**
